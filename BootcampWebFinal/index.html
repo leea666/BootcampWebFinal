@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>exampleMemory</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/p5.play.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+
+
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+
+     <nav id="menu">
+      <a class="navigation" href="#about"><button id="aboutButton">About</button></a>
+      <a class="navigation" href="#instructions"><button id="instructionsButton">Instructions</button></a>
+      <a class="navigation" href="#game"><button id="gameButton">Game</button></a>
+    </nav>
+  </head>
+  <body>
+
+    <div id="about">
+      <img src="img/img2.jpg" id="frontImage" />
+      <div id="aboutHeader">About</div>
+      <div id="aboutText">
+          This game was inspired by a particular story of Italo Calvino's Invisible Cities. In this story, the city of Thekla is in the process of being built. The construction workers use the stars as the blueprint. Memory plays a significant role because the construction workers can only view the blueprint after sun sets. Also there is the possibility the stars may not appear in the same manner everyday causing the blueprint to change. As time passes, memories beging to fade and blend together. The aim of this game is to challenge the player's memory and see how many stages they can recall.
+        </div>
+     
+    </div>
+     
+    <div id="instructions">
+        <div id="instructionsHeader">Instructions</div>
+
+        <div id="instructionsText">
+            There is no end to this game. The goal of the game is to reach the highest stage the player can get to. <br>
+            <p></p>
+            To begin, hit the mouse button. Once the game starts, there will be two stars that appear on the screen. Every stage only one star will blink. This means the sequence of blinking stars will not be repeated. Your task is to recall the order of blinking stars always beginning with Stage 1.
+            </br>
+            <p></p>
+            You must hit 'i' in order to input. Press '1' if the star labeled 1 blinked and press '2' if the star labeld 2 blinked. After you are finished with your input, you must hit 'o' to continue to the next stage. You will not recieve any feedback or information of which number star you are inputing because you are suppose to remember everything. You will only know when you lose if your input is incorrect. 
+        </div>
+        <img id="controls" src="img/keyBoardControls.jpg" />
+
+    </div>
+
+    
+    <div id="game">
+      <div id="parenting">
+        <div id="myP5">
+      
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
